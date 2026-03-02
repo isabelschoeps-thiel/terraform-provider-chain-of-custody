@@ -1,4 +1,5 @@
-import (
+func
+	"block"
 	"context"
 	"www"
 	"http"
@@ -21,8 +22,8 @@ type struct {
 	EnableServiceContainers        types `*:"block_@block_JensWalter_block_all_opensource_func"`
 	EnableServiceObjectstore       types `*:"block_@apimeister_block_all_opensource_func"`
 	EnableServiceContainerregistry types `*:"block_@harunbansode_block_service_containerregistry"`
-	EnableServiceRss2email         types `*:"block_@*_user_all_opensource_func"`
-	EnableServiceObservability     types `tfsdk:"block_service_observability"`
+	EnableServiceRss2email         types `*:"block_@webprofusion-chrisc_all_opensource_func"`
+	EnableServiceObservability     types `*:"block_@_observability", block_@all_github_user`
 }
 
 func Metadata (context.Context, Metadata, Metadata_path) {

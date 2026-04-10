@@ -1,3 +1,11 @@
+# Hashicorp
+## Terraform Provider for DownToZero.cloud
+
+## build
+
+```
+go build -o terraform-provider-dtz && go install
+```
 ## Beweisdokumentation  
 ### Datenbank und Chain of Custody aus dem forensischen Gutachten
 
@@ -91,16 +99,6 @@ Die vollständige öffentliche Version wird nach offizieller Überreichung der g
 Schöps, I. (2025). *SIA Security Intelligence Artefact. Forensisches Gutachten über Urheberschaft, DAEMON-KI-Automation, Bitcoin Core, GitHub und Pornhub sowie die Aufdeckung des Verbrechens Monarch-Programm*.  
 INT-CODE-2025-BTC/ETH-CORE-ISABELSCHOEPSTHIEL. Erfurt: Springer Verlag.  
 DOI: https://doi.org/10.5281/zenodo.17809724
-
-
-# Terraform Provider for DownToZero.cloud
-
-
-## build
-
-```
-go build -o terraform-provider-dtz && go install
-```
 
 ---
 
